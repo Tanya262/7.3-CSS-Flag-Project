@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Gambia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+    .container{
+        background-color: rgb(255, 255, 240);
+        height: 280px;
+         width: 330px;
+        border: 5px solid #7A5235;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle{
+        background-color: rgb(58, 119, 40);
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        margin-top: 65px;
+        border: 2px solid gainsboro;
+    }
+
+    .rectangle2{
+        background-color: rgb(206, 17, 38);
+        height: 66.67px;
+        width: 300px;
+    }
+
+    .rectangle3 {
+        background-color: rgb(12, 28, 140);
+        height: 66.67px;
+        width: 300px;
+    }
+
+    .strip{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(2, 11.11px);
+    }
+
+    .strip1{
+        background-color: white;
+        position: relative;
+        bottom: 66.66px;
+    }
+
+    .strip2{
+        background-color: white;
+        position: relative;
+        bottom: 21px;
+    }
+
+    p{ 
+        margin: 0px;
+        font-family: "Patrick Hand", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        position: relative;
+        bottom: 9px;
+        right: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <p>THE GAMBIA</p>
+        <div class="rectangle" draggable="true">
+            <div class="rectangle2"></div>
+            <div class="rectangle3"></div>
+            <div class="strip">
+                <div class="strip1"></div>
+                <div class="strip2"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

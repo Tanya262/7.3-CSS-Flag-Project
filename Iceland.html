@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Iceland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+    .container{
+        background-color: rgb(255, 255, 240);
+        height: 300px;
+         width: 330px;
+        border: 5px solid #2265b3;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle{
+        background-color: white;
+        height: 216px;
+        width: 300px;
+        position: absolute;
+        border: 2px solid gainsboro;
+        margin-top: 70px;
+    }
+
+    /*HORIZONTAL*/
+    .blue1 {
+        background-color: rgb(0, 56, 151);
+        height: 84px;
+        width: 300px;
+    }
+
+    .white1 {
+        background-color: white;
+        height: 12px;
+        width: 300px;
+    }
+
+    .red1 {
+        background-color: rgb(215, 40, 40);
+        height: 24px;
+        width: 300px;
+    }
+
+    .white2{
+        background-color: white;
+        height: 12px;
+    }
+
+    .blue2{
+        background-color: rgb(0, 56, 151);
+        height: 84px;
+    }
+
+    /*VERTICAL*/
+    #strip1{
+        background-color: white;
+        width: 12px;
+        height: 216px;
+        position: relative;
+        bottom: 216px;
+        left: 84px;
+    }
+
+    #strip2 {
+        background-color: rgb(215, 40, 40);
+        width: 24px;
+        height: 216px;
+        position: relative;
+        bottom: 432px;
+        left: 96px;
+    }
+
+    #white2 {
+        background-color: white;
+        width: 12px;
+        height: 216px;
+        position: relative;
+        bottom: 648px;
+        left: 120px;
+
+    }
+
+    p{ 
+        margin: 0px;
+        font-family: "Patrick Hand", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        position: relative;
+        bottom: 9px;
+        right: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <p>ICELAND</p>
+        <div class="rectangle">
+            <div class="blue1"></div>
+            <div class="white1"></div>
+            <div class="red1"></div>
+            <div class="white2"></div>
+            <div class="blue2"></div>
+            <div class="red2"></div>
+            
+            <div id="strip1"></div>
+            <div id="strip2"></div>
+            <div id="white2"></div>
+        </div>
+    </div>
+</body>
+</html>

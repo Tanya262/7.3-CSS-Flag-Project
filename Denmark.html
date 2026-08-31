@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Denmark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+    .container{
+        background-color: rgb(255, 255, 240);
+        height: 310px;
+        width: 330px;
+        border: 5px solid #9C3A2B;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle{
+        background-color: rgb(198, 12, 48);
+        height: 227px;
+        width: 300px;
+        position: absolute;
+        border: 2px solid gainsboro;
+        margin-top: 70px;
+    }
+
+    .strip1{
+        background-color: white;
+        height: 32.4px;
+        position: relative;
+        top: 97.3px;
+    }
+
+    .strip2 {
+        background-color: white;
+        width: 32.4px;
+        height: 227px;
+        position: absolute;
+        bottom: 0;
+        left: 97.3px;
+    }
+
+    p{ 
+        margin: 0px;
+        font-family: "Patrick Hand", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        position: relative;
+        bottom: 9px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <p>DENMARK</p>
+        <div class="rectangle" draggable="true">
+            <div class="strip1"></div>
+            <div class="strip2"></div>
+        </div>
+    </div>
+</body>
+</html>

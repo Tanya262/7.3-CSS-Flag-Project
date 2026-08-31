@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Ghana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+    .container{
+        background-color: rgb(255, 255, 240);
+        height: 290px;
+         width: 330px;
+        border: 5px solid #B27A0B;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle{
+        background-color: #006B3F;
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        margin-top: 70px;
+        border: 2px solid gainsboro;
+    }
+
+    .rectangle2{
+        background-color: #CE1126;
+        width: 300px;
+        height: 66.67px;
+    }
+
+    .rectangle3 {
+        background-color: #fcd116;
+        width: 300px;
+        height: 66.67px;
+    }
+
+    .star{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(150px 66.67px, 171.66px 133.33px, 114.96px 92.13px, 185.10px 92.13px, 129.34px 133.33px);
+        position: relative;
+        bottom: 133.3px;
+    }
+
+    p{ 
+        margin: 0px;
+        font-family: "Patrick Hand", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        position: relative;
+        bottom: 2px;
+        right: 2px;
+    }
+</style>
+</head>
+<body>
+    <divc class="container" >
+        <p>GHANA</p>
+        <div class="rectangle" draggable="true">
+            <div class="rectangle2"></div>
+            <div class="rectangle3"></div>
+            <div class="star"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Of Bahrain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+    .container{
+         background-color: rgb(255, 255, 240);
+        height: 260px;
+         width: 330px;
+        border: 5px solid #CE1126;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle{
+        background-color: #DA291C;
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        margin-top: 67px;
+        border: 2px solid gainsboro;
+    }
+
+    .rectangle2 {
+        height: 180px;
+        width: 75px;
+        background-color: white;
+    }
+
+    .triangle{
+        width: 0;
+        height: 0;
+        border-top: 18px solid color-mix(in srgb, pink 0%, transparent);
+        border-bottom: 18px solid color-mix(in srgb, blue 0%, transparent);
+        border-left: 45px solid color-mix(in srgb, white 100%, transparent);
+        border-right: 45px solid color-mix(in srgb, grey 0%, transparent);
+        margin-left: 75px;
+    }
+
+    p{ 
+        margin: 0px;
+        font-family: "Patrick Hand", cursive;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        position: relative;
+        bottom: 10px;
+        right: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <p>BAHRAIN</p>
+        <div class="rectangle" draggable="true">
+            <div class="rectangle2">
+            <div class="triangle" id="triangle1"></div>
+            <div class="triangle" id="triangle2"></div>
+            <div class="triangle" id="triangle3"></div>
+            <div class="triangle" id="triangle4"></div>
+            <div class="triangle" id="triangle5"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
