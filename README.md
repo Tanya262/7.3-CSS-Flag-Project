@@ -66,6 +66,7 @@ Because of that, I uploaded the project to GitHub near the end of my work instea
 
 ## WHAT'S THE FUTURE?
 It's lot cooler than current page. I'll complete full frontend website development.
+***THERE'S NO IMAGE FOR AUSTRALIA. It is under development. I'll soon add it in website. ALL OTHER FLAGS WORKS***
 1)I will add remaining countries flag. so, soon there will be total 198 flags solely build on CSS and HTML.
 2)I will create Mondrian paintings. (I will sell it for $1000 dollars. Can't find better deal $50M to $1000 dollars)
 3)In future, later on, I will add backend and add some personality to the website. but Visual (CSS) is FIRST Priority.
